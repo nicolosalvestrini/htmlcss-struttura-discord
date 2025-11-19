@@ -10,6 +10,11 @@
     display: flex;
 }
 
+.maon-flex{
+    display: flex;
+    flex-direction: column;
+}
+
 /*/rule flex*/
 
 /*box rule*/
@@ -39,11 +44,13 @@ div{
     padding: 10px;
 }
 
+.fbasis{
+   flex-basis: 25%; 
+}
+
 /*/box rule*/
 
-.logo{
-    flex-basis: 25%;
-}
+/*header rule*/
 
 .link{
     flex-basis: 50%;
@@ -55,8 +62,44 @@ div{
 
 
 .login{
-    flex-basis: 25%;
     justify-content: flex-end;
 }
 
+/*/header rule*/
 
+/*main rule*/
+
+.main-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.p-div{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.rose-box{
+    background-color: #ee82ee;
+    width: 910px;
+    height: 400px;
+}
+
+.blue{
+    background-color: #00008b;
+}
+
+.margin{
+    margin: 0 auto;
+}
+
+.big-box{
+    background-color: #1e90ff;
+    width: 720px;
+    height: 490px;
+}
+
+.small-boc{
+    
+}
