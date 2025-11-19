@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*rule flex*/
+
+.container-flex{
+    display: flex;
+}
+
+/*/rule flex*/
+
+/*box rule*/
+
+.logo{
+    
+}
+
