@@ -77,6 +77,10 @@ div{
     background-color: #d3d3d3;
 }
 
+.bg-black{
+    background-color: #23272a;
+}
+
 /*/backround color*/
 
 /*main rule*/
@@ -105,6 +109,7 @@ div{
 
 .margin{
     flex-direction: row;
+    border: 1px dashed black;
 }
 
 .big-box{
@@ -122,4 +127,23 @@ div{
 article{
     display: flex;
     margin: 0 auto;
+}
+
+.green-box{
+    background-color: #228b22;
+    width: 1200px;
+    height: 900px;
+}
+
+.box-rose-large{
+    width: 360px;
+    height: 580px;
+    background-color: #ef7f7f;
+}
+
+.box-azure-small{
+    height: 580px;
+    width: 210px;
+    background-color: #22b1a9;
+    border: 1px dashed white;
 }
