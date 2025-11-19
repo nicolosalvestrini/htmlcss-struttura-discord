@@ -67,6 +67,18 @@ div{
 
 /*/header rule*/
 
+/*backround color*/
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-gris{
+    background-color: #d3d3d3;
+}
+
+/*/backround color*/
+
 /*main rule*/
 
 .main-flex{
@@ -78,6 +90,7 @@ div{
     padding-bottom: 50px;
     padding-top: 50px;
     width: 100%;
+    display: flex;
 }
 
 .rose-box{
@@ -91,7 +104,7 @@ div{
 }
 
 .margin{
-    margin: 0 auto;
+    flex-direction: row;
 }
 
 .big-box{
@@ -100,6 +113,13 @@ div{
     height: 490px;
 }
 
-.small-boc{
-    
+.small-box{
+    background-color: #ffc0cb;
+    height: 490px;
+    width: 480px;
+
+}
+article{
+    display: flex;
+    margin: 0 auto;
 }
