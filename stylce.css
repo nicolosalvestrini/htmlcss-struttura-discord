@@ -147,3 +147,33 @@ article{
     background-color: #22b1a9;
     border: 1px dashed white;
 }
+
+/*/main rule*/
+
+/*footer rule*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #23272a;
+    margin-top: 3px;
+    padding-top: 50px;
+}
+
+.box-footer{
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    background-color: #7fffd4;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.final-box{
+    background-color: #ffb6c1;
+    padding: 3px;
+    border: 1px dashed black;
+}
+
+/*/footer rule*/
